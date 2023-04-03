@@ -23,6 +23,6 @@ jobs:
       - uses: actions/checkout@v3
       - uses: akhileshns/heroku-deploy@v3.12.12
         with: 
-          heroku_api_key: ${{secrets.HEROKU_API}}
+          heroku_api_key: ${{secrets.DARAJA_API}}
           heroku_app_name: "daraja-api-1"
           heroku_email: "chelseakerubo1@gmail.com"
